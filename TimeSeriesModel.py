@@ -7,7 +7,6 @@ from statsmodels.tsa.arima_model import ARIMA
 from sklearn.metrics import mean_squared_error
 from statsmodels.graphics.tsaplots import plot_pacf
 sns.set_style('darkgrid')
-%matplotlib inline
 
 class TimeSeriesModel:
     #Specifies the store number, item number and any consecutive 3 months of interest in the same year.
