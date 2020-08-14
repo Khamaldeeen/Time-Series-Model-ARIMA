@@ -8,6 +8,7 @@ from sklearn.metrics import mean_squared_error
 from statsmodels.graphics.tsaplots import plot_pacf
 sns.set_style('darkgrid')
 
+
 class TimeSeriesModel:
     #Specifies the store number, item number and any consecutive 3 months of interest in the same year.
     def __init__(self, data, f_mnth, s_mnth, t_mnth, store_no, item_no):
